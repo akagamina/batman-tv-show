@@ -111,4 +111,29 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .detail-container {
+    .back-button {
+    }
+    .detail-body {
+      display: block;
+      .img-item {
+        img {
+          width: 100%;
+        }
+      }
+
+      .text-item {
+        padding: 15px;
+        .title {
+          h2 {
+          }
+          h5 {
+          }
+        }
+      }
+    }
+  }
+}
 </style>
